@@ -26,9 +26,7 @@
 			//mac 系统上的默认安装路径为 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 			// "runtimeExecutable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
 			"runtimeArgs": [
-				"--allow-file-access-from-files",
-				"--allow-file-access-frome-files",
-				" --disable-web-security"
+				"--allow-file-access-from-files"
 			],
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}",

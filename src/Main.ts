@@ -27,6 +27,9 @@ class Main {
 	}
 
 	onConfigLoaded(): void {
+		//setup some local variables
+		let totalScore = parseInt(localStorage.getItem('totalScore'));
+		!totalScore && localStorage.setItem('totalScore', '0');
 		//加载IDE指定的场景
 		GameConfig.startScene && Laya.Scene.open(GameConfig.startScene);
 	}
